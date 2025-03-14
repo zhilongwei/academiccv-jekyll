@@ -1,0 +1,52 @@
+title: Alex Doe
+description: Alex Doe's curriculum vitae
+
+baseurl: "/academiccv-jekyll"
+url: "https://zhilongwei.github.io/"
+
+# -----------------------------------------------------------------------------
+# Contact Information
+# -----------------------------------------------------------------------------
+contact:
+  name: "Alex Doe"
+  address: "123 Main Street, Anytown, Country"
+  phone: "+1 (123) 456-7890"
+  email: "alex.doe@example.com"
+
+# -----------------------------------------------------------------------------
+# About Me
+# -----------------------------------------------------------------------------
+
+mydescription: "Personal website showcasing research, publications, and projects of Alex Doe."
+
+# -----------------------------------------------------------------------------
+# Social Accounts
+# -----------------------------------------------------------------------------
+social:
+  linkedin: "https://www.linkedin.com/in/alexdoe"
+  google_scholar: "https://scholar.google.com/citations?user=ABCDEFGHIJK"
+  researchgate: "https://www.researchgate.net/profile/Alex-Doe"
+  orcid: "https://orcid.org/0000-0001-2345-6789"
+  github: "https://github.com/alexdoe"
+
+
+# -----------------------------------------------------------------------------
+# ! DONOT MODIFY BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING!
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Jekyll Plugins
+# -----------------------------------------------------------------------------
+plugins:
+  - jekyll-scholar
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+scholar:
+  style: assets/csl/apa-no-doi.csl
+  source: ./_bibliography
+  bibliography: publications.bib
+  sort_by: year
+  order: descending
+  bibliography_template: bib
