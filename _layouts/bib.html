@@ -2,10 +2,10 @@
 ---
 {% if (entry.type == 'inproceedings' or entry.type == 'conference') and entry.url %}
 <a href="{{ entry.url | escape }}" target="_blank" rel="noopener noreferrer" style="color: #1e90ff;">
-    {{ reference | replace_first: 'Wei, Z.', '<b>Wei, Z.</b>' }}
+    {{ reference | replace_first: 'Doe, A.', '<b>Doe, A.</b>' }}
 </a>
 {% else %}
-{{ reference | replace_first: 'Wei, Z.', '<b>Wei, Z.</b>' }}
+{{ reference | replace_first: 'Doe, A.', '<b>Doe, A.</b>' }}
 {% endif %}
 
 {% if entry.doi %}
